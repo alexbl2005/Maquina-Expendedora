@@ -1,0 +1,20 @@
+La raíz de mi maquina expendedora es un un grid panel de 5 columnas y 7 filas, en las
+primeras dos columnas tengo los productos, que son peluches, junto con su ID.
+
+La tercera columna la e usado para espaciar los botones de los productos y en la cuarta
+columna encontramos todos los controles.
+
+En la parte de arriba tengo 3 labels que me muestran el ID del producto, el nombre del
+producto y su precio.
+
+Debajo de los labels he puesto otro gridpanel de 3x3 para hacer un teclado numerico,
+debajo tengo una celda vacia para separar y debajo tengo otro gridpanel de 2x3 para
+poner los botones que manejan todo el tema del dinero.
+En la celda de abajo tengo otro gridpanel de 2x1, da la impresión de que solo hay 1 gridpanel,
+pero decidí usar 2 para facilitarme el código. 
+
+Para los botones de dinero use un filtro y para los botones de cancelar y comprar
+los programe con setON. Debajo de estos botones puse otro label que te pone el cambio
+y a la izquierda de ese label me quedo un hueco y se me ocurrió que podría poner un
+label y hacer que según el peluche que compres ponga el sonido característico del animal,
+por ejemplo al comprar el peluche del perro, pone "guau" y con el del gato "miau".
